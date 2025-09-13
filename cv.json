@@ -1,0 +1,179 @@
+{
+  "basics": {
+    "name": "Alyssa Voccia",
+    "label": "Web Developer",
+    "image": "/alyssa.jpg",
+    "email": "alyssa@alyssavoccia.com",
+    "url": "https://alyssavoccia.com",
+    "summary": "Web developer with a strong technical foundation and a growing interest in data analytics. Passionate about using data to uncover insights, drive decisions, and complement my development background with analytical skills.",
+    "theme": "default",
+    "location": {
+      "city": "West Palm Beach",
+      "state": "FL"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "alyssa-voccia",
+        "url": "https://www.linkedin.com/in/alyssa-voccia/"
+      },
+      {
+        "network": "GitHub",
+        "username": "alyssavoccia",
+        "url": "https://github.com/alyssavoccia"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Compensation Negotiator",
+      "position": "Lead Developer",
+      "location": "Boca Raton, FL",
+      "url": "https://compensationnegotiator.com/",
+      "startDate": "2024-01-01",
+      "endDate": null,
+      "summary": "Designed and optimized data-driven web applications that streamlined real estate compensation workflows. Focused on automation, database efficiency, and user-centric solutions that improved agent productivity and reduced paperwork.",
+      "responsibilities": [
+        "Designed and implemented automated workflows that reduced manual paperwork and improved completion rates of agent compensation agreements.",
+        "Built scalable MySQL-backed systems to manage agent data, ensuring high data integrity and consistency.",
+        "Developed enterprise and free product tiers, enabling brokerages to manage large data volumes and track KPIs centrally.",
+        "Partnered with stakeholders to identify process bottlenecks and deliver solutions that increased agent efficiency and reduced turnaround times."
+      ],
+      "skills": [
+        "Laravel",
+        "Livewire",
+        "Tailwind",
+        "MySQL",
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "The Signature Real Estate Companies",
+      "position": "Web Developer",
+      "location": "Boca Raton, FL",
+      "url": "https://innovativesolutions.com",
+      "startDate": "2022-07-01",
+      "endDate": null,
+      "summary": "Managed and improved a portfolio of 31+ websites, collaborating with stakeholders to deliver data-backed features and insights. Contributed to building proprietary databases and tools that enhanced lead generation, property discovery, and business decision-making.",
+      "responsibilities": [
+        "Analyzed and maintained performance metrics across a portfolio of 31 websites, improving site reliability and security.",
+        "Collaborated with product managers to design features that enhanced lead generation, contributing to a measurable increase in user engagement.",
+        "Contributed to the development of an internal property database by aggregating and cleaning proprietary datasets, providing analysts and executives with a competitive market advantage.",
+        "Created reusable reporting and UI components to streamline search workflows, boosting property discovery and conversion rates."
+      ],
+      "skills": ["HTML", "CSS", "JS", "React", "Drupal", "PHP"]
+    },
+    {
+      "name": "Freelance",
+      "position": "Web Developer/Analytics",
+      "location": "West Palm Beach, FL",
+      "startDate": "2025-07-01",
+      "endDate": null,
+      "summary": "Built custom web and analytics solutions, including a React e-commerce site with Shopify integration for a woodworking company.",
+      "responsibilities": [
+        "Developed a custom React-based e-commerce platform for a woodworking company, integrating Shopify for seamless product management and order processing."
+      ],
+      "skills": ["HTML", "CSS", "JS", "React", "Shopify"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Lenoir-Rhyne University",
+      "area": "MBA",
+      "startDate": "2019-08-01",
+      "endDate": "2021-05-01"
+    },
+    {
+      "institution": "Limestone College",
+      "area": "Computer Science",
+      "startDate": "2015-08-01",
+      "endDate": "2019-05-01"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Front End Web Development Techdegree",
+      "date": "2019-02-02",
+      "issuer": "Treehouse"
+    }
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "MySQL",
+    "Git",
+    "GitHub",
+    "Tailwind",
+    "Bootstrap",
+    "MongoDB",
+    "Python",
+    "Laravel",
+    "Livewire"
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technology",
+      "keywords": ["AI", "Blockchain"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Smith",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Compensation Negotiator",
+      "isActive": true,
+      "description": "A web application that automates real estate compensation workflows.",
+      "highlights": [
+        "Built with Laravel, Livewire, and MySQL",
+        "Implemented real-time chat & automated PDF generation and data processes to improve efficiency"
+      ],
+      "url": "https://compensationnegotiator.com/"
+    },
+    {
+      "name": "Signature One Luxury Estates",
+      "isActive": true,
+      "description": "A real-estate brokerage website showcasing luxury property listings.",
+      "highlights": [
+        "Built interactive map-based property browsing using React & Google Maps API",
+        "Integrated advanced analytics tools to optimize lead generation"
+      ],
+      "url": "https://signatureoneluxuryestates.com/"
+    },
+    {
+      "name": "Linart Realty, LLC",
+      "isActive": true,
+      "description": "A real estate platform highlighting exclusive listings and South Florida investment properties.",
+      "highlights": [
+        "Built with dynamic listing pages and interactive neighborhood map browsing",
+        "Implemented tracking of notable transactions and pre-construction opportunities"
+      ],
+      "url": "https://linartrealty.com/"
+    },
+    {
+      "name": "VAV Customs",
+      "isActive": true,
+      "description": "A custom ecommerce store built with React and Shopify for payment processing.",
+      "highlights": [
+        "Product management and shopping cart functionality",
+        "Secure payment integration"
+      ],
+      "url": "https://vavcustoms-react.vercel.app/",
+      "github": "https://github.com/alyssavoccia/vavcustoms-react"
+    }
+  ]
+}

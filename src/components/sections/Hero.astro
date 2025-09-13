@@ -1,0 +1,72 @@
+---
+import { basics } from "../../../cv.json";
+import Section from "../Section.astro";
+import Mail from "../../icons/Mail.astro";
+import GitHub from "../../icons/GitHub.astro";
+import LinkedIn from "../../icons/LinkedIn.astro";
+
+const { name, label, image, location, profiles, email } = basics;
+const { city, state } = location;
+
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
+const linkedUrl = linkedInfo?.url;
+
+const githubInfo = profiles.find(({ network }) => network === "GitHub");
+const githubUrl = githubInfo?.url;
+
+const printInfo = [email, linkedUrl].filter(Boolean).join(" • ");
+---
+
+<Section>
+	<div class="flex flex-col-reverse gap-8">
+		<div class="flex flex-col gap-1 pr-8 print:gap-0 print:pr-0">
+			<h1 class="text-4xl font-bold print:text-3xl">{name}</h1>
+			<h2 class="text-balance text-base text-gray-500 print:text-lg">{label}</h2>
+			<div class="flex items-center gap-2 pt-2 text-sm text-gray-500">
+				{city}, {state}
+			</div>
+			<footer class="print mt-2 flex gap-1 text-sm">
+				{printInfo}
+			</footer>
+			<footer class="no-print mt-2 flex gap-1 text-sm">
+				{
+					email && (
+						<div x-data=`{ copyText: '${email}', copyNotification: false, copyToClipboard() { navigator.clipboard.writeText(this.copyText); this.copyNotification = true; let that = this; setTimeout(function(){ that.copyNotification = false; }, 3000); } }` class="relative flex items-center">
+							<div x-show="copyNotification" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 translate-y-3" x-transition:enter-end="opacity-100 translate-x-0" x-transition:leave="transition ease-in duration-300" x-transition:leave-start="opacity-100 translate-x-0" x-transition:leave-end="opacity-0 translate-y-2" style="display:none;" class="absolute left-0" x-cloak>
+								<div class="-mt-1.5 flex h-7 -translate-y-full items-center rounded border-r border-green-500 bg-green-500 px-3 text-xs text-white">
+									<span class="flex items-center gap-1 text-xs text-skin-hue !text-white">Copied!</span>
+									<div class="absolute left-0 bottom-0 inline-block h-full translate-x-full translate-y-5 overflow-hidden">
+										<div class="h-3 w-3 origin-center rotate-45 transform border border-transparent bg-green-500" />
+									</div>
+								</div>
+							</div>
+							<button @click="copyToClipboard();" class="group inline-flex size-8 cursor-pointer items-center justify-center rounded-md text-purple-600 hover:bg-purple-600 hover:text-white [&>span]:hover:text-white transition-all duration-500 ease-linear">
+								<svg x-show="copyNotification" class="h-4 w-4 stroke-current text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" x-cloak>
+									<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+								</svg>
+								<span class="flex items-center gap-1 text-xs text-skin-hue" x-show="!copyNotification">
+									<Mail />
+								</span>
+							</button>
+						</div>
+					)
+				}
+                <a class="group inline-flex size-8 cursor-pointer items-center justify-center rounded-md text-purple-600 hover:bg-purple-600 hover:text-white [&>span]:hover:text-white transition-all duration-500 ease-linear" href={githubUrl} title={`Visit ${name} profile on GitHub`} target="_blank" rel="noopener noreferrer">
+                    <GitHub />
+                </a>
+                <a class="group inline-flex size-8 cursor-pointer items-center justify-center rounded-md text-purple-600 hover:bg-purple-600 hover:text-white [&>span]:hover:text-white transition-all duration-500 ease-linear" href={linkedUrl} title={`Visit ${name} profile on LinkedIn`} target="_blank" rel="noopener noreferrer">
+                    <LinkedIn />
+                </a>
+			</footer>
+		</div>
+		<figure class="print:hidden w-fit relative flex md:items-center md:justify-center md:mx-auto">
+			<img class="shadow-lg shadow-purple-600/10 aspect-square w-32 rounded-2xl bg-cover" src={image} alt={name} />
+			<div class="pointer-events-none absolute -inset-2">
+				<div class="absolute -inset-y-8 right-0 w-px bg-purple-600/50 [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+				<div class="absolute -inset-y-8 left-0 w-px bg-purple-600/50 [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+				<div class="absolute -inset-x-8 bottom-0 h-px bg-purple-600/50 [mask-image:linear-gradient(to_left,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+				<div class="absolute -inset-x-8 top-0 h-px bg-purple-600/50 [mask-image:linear-gradient(to_left,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+			</div>
+		</figure>
+	</div>
+</Section>
