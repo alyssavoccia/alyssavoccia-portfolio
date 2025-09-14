@@ -160,7 +160,7 @@
       "description": "A custom ecommerce store built with React and Shopify for payment processing.",
       "highlights": [
         "Product management and shopping cart functionality",
-        "Secure payment integration"
+        "Secure payment integration through Shopify"
       ],
       "url": "https://vavcustoms-react.vercel.app/",
       "github": "https://github.com/alyssavoccia/vavcustoms-react"
