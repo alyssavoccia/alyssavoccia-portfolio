@@ -159,7 +159,7 @@
       "isActive": true,
       "description": "A custom ecommerce store built with React and Shopify for payment processing.",
       "highlights": [
-        "Product management and shopping cart functionality",
+        "Product management and shopping cart functionality built with React & Shopify",
         "Secure payment integration through Shopify"
       ],
       "url": "https://vavcustoms-react.vercel.app/",
