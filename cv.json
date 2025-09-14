@@ -155,16 +155,6 @@
       "url": "https://signatureoneluxuryestates.com/"
     },
     {
-      "name": "Linart Realty, LLC",
-      "isActive": true,
-      "description": "A real estate platform highlighting exclusive listings and South Florida investment properties.",
-      "highlights": [
-        "Built with dynamic listing pages and interactive neighborhood map browsing",
-        "Implemented tracking of notable transactions and pre-construction opportunities"
-      ],
-      "url": "https://linartrealty.com/"
-    },
-    {
       "name": "VAV Customs",
       "isActive": true,
       "description": "A custom ecommerce store built with React and Shopify for payment processing.",
@@ -174,6 +164,16 @@
       ],
       "url": "https://vavcustoms-react.vercel.app/",
       "github": "https://github.com/alyssavoccia/vavcustoms-react"
+    },
+    {
+      "name": "Real Estate Market Analysis",
+      "isActive": true,
+      "description": "Analyzing housing market trends and building dashboards for clear visualization.",
+      "highlights": [
+        "Built Python-based exploratory analysis and feature engineering on King County housing sales data",
+        "Developed interactive Excel dashboards with PivotTables and charts to visualize pricing trends and regional patterns"
+      ],
+      "url": "https://www.notion.so/Real-Estate-Market-Analysis-Dashboard-26e9de3d143e8059aea9f361d69bfb5d"
     }
   ]
 }
