@@ -127,40 +127,35 @@
       "keywords": ["AI", "Blockchain"]
     }
   ],
-  "references": [
-    {
-      "name": "Jane Smith",
-      "reference": "Reference…"
-    }
-  ],
   "projects": [
+    {
+      "name": "Runnr",
+      "isActive": true,
+      "description": "Lightweight run tracking app. Import workouts & get insights/analytics into your training.",
+      "highlights": [
+        "Developed using React & Firebase, allowing users to sign in with Google and import workouts from Apple Health or Garmin Connect.",
+        "Includes a demo mode for users to test/view the app without signing in."
+      ],
+      "url": "https://www.runnrco.com/",
+      "github": "https://github.com/alyssavoccia/runnr"
+    },
     {
       "name": "Compensation Negotiator",
       "isActive": true,
       "description": "A web application that automates real estate compensation workflows.",
       "highlights": [
-        "Built with Laravel, Livewire, and MySQL",
-        "Implemented real-time chat & automated PDF generation and data processes to improve efficiency"
+        "Built with Laravel, Livewire, Tailwind CSS, and MySQL.",
+        "Implemented real-time chat & automated PDF generation and data processes to improve efficiency."
       ],
       "url": "https://compensationnegotiator.com/"
-    },
-    {
-      "name": "Signature One Luxury Estates",
-      "isActive": true,
-      "description": "A real-estate brokerage website showcasing luxury property listings.",
-      "highlights": [
-        "Built interactive map-based property browsing using React & Google Maps API",
-        "Integrated advanced analytics tools to optimize lead generation"
-      ],
-      "url": "https://signatureoneluxuryestates.com/"
     },
     {
       "name": "VAV Customs",
       "isActive": true,
       "description": "A custom ecommerce store built with React and Shopify for payment processing.",
       "highlights": [
-        "Product management and shopping cart functionality built with React & Shopify",
-        "Secure payment integration through Shopify"
+        "Product management and shopping cart functionality built with React & Shopify.",
+        "Secure payment integration through Shopify."
       ],
       "url": "https://vavcustoms-react.vercel.app/",
       "github": "https://github.com/alyssavoccia/vavcustoms-react"
@@ -170,8 +165,8 @@
       "isActive": true,
       "description": "Analyzing housing market trends and building dashboards for clear visualization.",
       "highlights": [
-        "Built Python-based exploratory analysis and feature engineering on King County housing sales data",
-        "Developed interactive Excel dashboards with PivotTables and charts to visualize pricing trends and regional patterns"
+        "Built Python-based exploratory analysis and feature engineering on King County housing sales data.",
+        "Developed interactive Excel dashboards with PivotTables and charts to visualize pricing trends and regional patterns."
       ],
       "url": "https://www.notion.so/Real-Estate-Market-Analysis-Dashboard-26e9de3d143e8059aea9f361d69bfb5d"
     }
