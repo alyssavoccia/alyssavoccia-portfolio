@@ -129,17 +129,6 @@
   ],
   "projects": [
     {
-      "name": "Runnr",
-      "isActive": true,
-      "description": "Lightweight run tracking app. Import workouts & get insights/analytics into your training.",
-      "highlights": [
-        "Developed using React & Firebase, allowing users to sign in with Google and import workouts from Apple Health or Garmin Connect.",
-        "Includes a demo mode for users to test/view the app without signing in."
-      ],
-      "url": "https://www.runnrco.com/",
-      "github": "https://github.com/alyssavoccia/runnr"
-    },
-    {
       "name": "Compensation Negotiator",
       "isActive": true,
       "description": "A web application that automates real estate compensation workflows.",
