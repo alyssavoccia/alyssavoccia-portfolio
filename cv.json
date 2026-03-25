@@ -129,6 +129,17 @@
   ],
   "projects": [
     {
+      "name": "Runnr",
+      "isActive": true,
+      "description": "A run tracking app to provide insights/analytics for runners.",
+      "highlights": [
+        "Currently developing a run tracking app with React & Firebase.",
+        "Users can import data from Apple Health or Garmin Connect to gain insights."
+      ],
+      "url": "https://runnrco.vercel.app/",
+      "github": "https://github.com/alyssavoccia/runnr"
+    },
+    {
       "name": "Compensation Negotiator",
       "isActive": true,
       "description": "A web application that automates real estate compensation workflows.",
