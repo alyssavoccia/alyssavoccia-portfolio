@@ -39,16 +39,7 @@
         "Developed enterprise and free product tiers, enabling brokerages to manage large data volumes and track KPIs centrally.",
         "Partnered with stakeholders to identify process bottlenecks and deliver solutions that increased agent efficiency and reduced turnaround times."
       ],
-      "skills": [
-        "Laravel",
-        "Livewire",
-        "Tailwind",
-        "MySQL",
-        "PHP",
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
+      "skills": ["Laravel", "Livewire", "Tailwind", "MySQL", "PHP", "HTML", "CSS", "JavaScript"]
     },
     {
       "name": "The Signature Real Estate Companies",
@@ -136,7 +127,7 @@
         "Currently developing a run tracking app with React & Firebase.",
         "Users can import data from Apple Health or Garmin Connect to gain insights."
       ],
-      "url": "https://runnrco.vercel.app/",
+      "url": "https://www.runnrco.com/",
       "github": "https://github.com/alyssavoccia/runnr"
     },
     {
